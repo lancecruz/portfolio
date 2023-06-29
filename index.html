@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/d5dab98de3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <img class="logo" src="./images/logo.png" alt="">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner">
+        <div class="container">
+            <h1>Lance Napoleon Cruz</h1>
+            <h2>Software Engineer</h2>
+        </div>
+    </div>
+    <!-- --About-- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/Pic.jpg" alt="Picture of myself">
+                </div>
+                <div class="about-col-2">
+                    <h2>About Me</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, error corporis. Esse autem repudiandae similique, 
+                        fuga minima iusto unde enim consectetur laborum, perferendis reprehenderit? Sequi quidem distinctio, deleniti ullam, 
+                        qui ratione officiis incidunt doloribus eligendi, alias inventore quas corporis! Sapiente?</p> 
+                    <div class="tab-titles">
+                        <ul>
+                            <li class="tab-links active-link">Skills</li>
+                            <li class="tab-links">Experience</li>
+                            <li class="tab-links">Education</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Game Development</span><br>Game Development with Unity</li>
+                            <li><span>Mobile Development</span><br>Mobile app Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>2020 - 2022</span><br>Game Developer at HolySoft Studios</li>
+                            <li><span>2018 - 2019</span><br>Junior Programmer at AiMedia Call Solutions</li>
+                            <li><span>2015 - 2017</span><br>Junior Programmer at Intelligent Touch Corporation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents">
+                        <ul>
+                            <li><span>2014</span><br>B.Sc in Computer Science from USLS Philippines</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="projects">
+        <div class="container">
+            <div class="section-heading">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="projects-list">
+                <div class="project-content">
+                    <h3>The Doomed Knight</h3>
+                    <img src="./images/doomed_knight.jpg" alt="The Doomed Knight game logo">
+                    <p class="project-content-description">A metroidvania inspired game that lets players discover a fascinating world full of monsters, secrets and mysteries</p>
+                    <p><span class="project-content-technologies">Unity Game Engine, C#</span></p>
+                </div>
+                <div class="project-content">
+                    <h3>(To be filled)</h3>
+                    <img src="./images/doomed_knight.jpg" alt="">
+                    <p class="project-content-description">A metroidvania inspired game that lets players discover a fascinating world full of monsters, secrets and mysteries</p>
+                    <p><span class="project-content-technologies">Unity Game Engine, C#</span></p>
+                </div>
+                <div class="project-content">
+                    <h3>(To be filled)</h3>
+                    <img src="./images/doomed_knight.jpg" alt="">
+                    <p class="project-content-description">A metroidvania inspired game that lets players discover a fascinating world full of monsters, secrets and mysteries</p>
+                    <p><span class="project-content-technologies">Unity Game Engine, C#</span></p>
+                </div>
+                <div class="project-content">
+                    <h3>(To be filled)</h3>
+                    <img src="./images/doomed_knight.jpg" alt="">
+                    <p class="project-content-description">A metroidvania inspired game that lets players discover a fascinating world full of monsters, secrets and mysteries</p>
+                    <p><span class="project-content-technologies">Unity Game Engine, C#</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-col-1">
+                    <h2 class="section-heading">Contact Me</h2>
+                    <p><i class="fa-sharp fa-solid fa-envelope"></i></i>lancenapoleon.cruz@gmail.com</p>
+                    <p><i class="fa-sharp fa-solid fa-phone"></i>555-555-5555</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/lance.n.cruz/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://facebook.com"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="https://facebook.com"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://facebook.com"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="./resources/Lance Napoleon Cruz CV.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="contact-col-2">
+                    <form>
+                        <input type="text" id="name" name="name" placeholder="Your Name">
+                        <input type="text" id="email" name="email" placeholder="Your Email">
+                        <textarea id="message" name="message" rows="7" placeholder="Your Message"></textarea>
+                        <button id="contactSubmitButton" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Lance. Made with <i class="fa-solid fa-heart"></i> in London. </p>
+    </div>
+</body>
+</html>
